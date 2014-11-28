@@ -1,0 +1,15 @@
+body {
+	background-image: url("../imatges/blank.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.png24 { behavior: url(imatges/iepngfix.htc); }
+
+ul#menu li { margin-left:6px; }
+#contingut { height:100%; }
+
+div#fixme {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( (  ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}

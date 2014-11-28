@@ -1,0 +1,18 @@
+
+
+all:
+  stylesheets: [/csDoctrineActAsSortablePlugin/css/sortable.css]
+
+pageEditSuccess:
+  javascripts: [ /sfMediaBrowserPlugin/js/WindowManager.js ]
+
+contentSuccess:
+  has_layout: false
+contentCreatedSuccess:
+  has_layout: false
+contentUsersSuccess:
+  has_layout: false
+contentUsersEditSuccess:
+  has_layout: false
+contentUsersUpdateSuccess:
+  has_layout: false

@@ -1,0 +1,13 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_media_browser:
+    root_dir: /docs
+    assets_list:                           
+      js:  [/sfJqueryReloadedPlugin/js/jquery-1.4.2.min.js, /sfJqueryReloadedPlugin/js/plugins/jquery-ui-1.8.2.custom.min.js, /sfMediaBrowserPlugin/js/list.jquery.js]
+      css: [/sfMediaBrowserPlugin/css/list.css]
+  ckeditor:
+    basePath: /js/ckeditor/
+

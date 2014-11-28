@@ -1,0 +1,40 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: admin, action: index }
+
+espectacles:
+  url: /espectacles.html
+  param: { module: cmsAdmin, action: index, id: 49 }
+
+serveis:
+  url: /serveis.html
+  param: { module: cmsAdmin, action: index, id: 61 }
+
+formacio:
+  url: /formacio.html
+  param: { module: cmsAdmin, action: index, id: 72 }
+
+presentacio:
+  url: /presentacio.html
+  param: { module: cmsAdmin, action: index, id: 45 }
+
+colaboradors:
+  url: /colaboradors.html
+  param: { module: cmsAdmin, action: index, id: 46 }
+
+4mono:
+  url: /el-4-mono.html
+  param: { module: cmsAdmin, action: index, id: 120 }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

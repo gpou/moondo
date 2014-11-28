@@ -1,0 +1,39 @@
+
+body { 
+	background-color:#8b9853; 
+}
+h2, h3, h4 { color: #8b9853; }
+h2 a, h3 a, h4 a { color: #8b9853; }
+
+/*
+.llistat { margin-bottom:20px; }
+.llistat a { font-size:1.5em; text-align:left; }
+
+ul#subsubmenu { width:100%; list-style:none; font-size:1.2em; font-weight:bold;
+	margin:0px; padding:0px; height:1.5em; border-bottom:1px solid #829156; 
+	margin-top:-10px; margin-bottom:30px; }
+ul#subsubmenu li { float:left; width:33%; text-align:right; }
+ul#subsubmenu li a { color:#555; }
+ul#subsubmenu li.actiu a, ul#subsubmenu li a:hover { color:#000; }
+
+p.peu_foto { font-size:0.9em; margin-top:5px; text-align:center; }
+
+.fotos a { float:left; margin-bottom:14px; margin-right:14px; }
+.fotos a img { width:120px; height:80px; }
+.fotos { width:410px; margin-bottom:50px; }
+
+.foto_detalls img { width:390px; }
+p.fletxes { height:20px; width:390px; }
+.fletxa_dre { float:right; }
+
+.video { margin-bottom:30px; }
+.video p.titol { font-weight:bold; }
+
+p.dossier { margin-bottom:5px; }
+p.dossier a { font-weight:bold; margin-right:30px; }
+.fotos_descarrega { text-align:left; font-size:0.9em; clear:both; }
+.fotos_descarrega img { align:left; margin-right:10px; margin-top:20px; clear:both; width:150px; }
+
+
+p.subtitol {  font-weight:bold; }
+*/

@@ -1,0 +1,116 @@
+
+Page:
+  actAs: 
+    Sortable: { uniqueBy: [parent_id] }
+    I18n:
+      fields: [titre, text]
+      actAs:
+        Sluggable: { fields: [titre], canUpdate: true, uniqueBy: [lang, titre] }
+  options:
+    orderBy: position
+  columns:
+    parent_id: { type: integer }
+    titre: { type: string(255), notnull: true }
+    visible: { type: boolean, default: true, notnull: true }
+    submenu_list_class: { type: string(50) }
+    image: { type: string(100) }
+    text: { type: text }
+    nivells_sub: { type: integer, default: 2 }
+  relations:
+    Parent: { class: Page, onDelete: CASCADE, local: parent_id, foreign: id, foreignAlias: SubPages }
+
+PageContent:
+  actAs:
+    Sortable:
+      uniqueBy: [page_id]
+    I18n:
+      fields: [text]
+  options:
+    orderBy: position
+  columns:
+    page_id: { type: integer, notnull: true }
+    type: { type: enum, values: [text, images, videos, audios, docs, links, form, submenu], notnull: true, default: text }
+    users: { type: enum, values: [tots, llista ], default: tots, notnull: true }
+    text: { type: text }
+    visible: { type: boolean, default: true, notnull: true }
+    submenu_levels: { type: integer }
+  relations:
+    Page: { onDelete: CASCADE, local: page_id, foreign: id, foreignAlias: Contents }
+
+PageContentImage:
+  actAs:
+    Sortable:
+      uniqueBy: [content_id]
+    I18n:
+      fields: [titre]
+  options:
+    orderBy: position
+  columns:
+    content_id: { type: integer, notnull: true }
+    image_small: { type: string(255), notnull: true }
+    image: { type: string(255), notnull: true }
+    titre: { type: string(255) }
+  relations:
+    PageContent: { onDelete: CASCADE, local: content_id, foreign: id, foreignAlias: Images }
+
+PageContentVideo:
+  actAs:
+    Sortable:
+      uniqueBy: [content_id]
+    I18n:
+      fields: [titre]
+  options:
+    orderBy: position
+  columns:
+    content_id: { type: integer, notnull: true }
+    image_small: { type: string(255), notnull: true }
+    url: { type: string(255), notnull: true }
+    titre: { type: string(255) }
+  relations:
+    PageContent: { onDelete: CASCADE, local: content_id, foreign: id, foreignAlias: Videos }
+
+PageContentAudio:
+  actAs:
+    Sortable:
+      uniqueBy: [content_id]
+    I18n:
+      fields: [titre]
+  options:
+    orderBy: position
+  columns:
+    content_id: { type: integer, notnull: true }
+    url: { type: string(255), notnull: true }
+    titre: { type: string(255) }
+  relations:
+    PageContent: { onDelete: CASCADE, local: content_id, foreign: id, foreignAlias: Audios }
+
+PageContentDoc:
+  actAs:
+    Sortable:
+      uniqueBy: [content_id]
+    I18n:
+      fields: [titre]
+  options:
+    orderBy: position
+  columns:
+    content_id: { type: integer, notnull: true }
+    url: { type: string(255), notnull: true }
+    titre: { type: string(255) }
+  relations:
+    PageContent: { onDelete: CASCADE, local: content_id, foreign: id, foreignAlias: Docs }
+
+PageContentLink:
+  actAs:
+    Sortable:
+      uniqueBy: [content_id]
+    I18n:
+      fields: [titre]
+  options:
+    orderBy: position
+  columns:
+    content_id: { type: integer, notnull: true }
+    url: { type: string(255), notnull: true }
+    titre: { type: string(255) }
+  relations:
+    PageContent: { onDelete: CASCADE, local: content_id, foreign: id, foreignAlias: Links }
+

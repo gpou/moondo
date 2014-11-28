@@ -1,0 +1,6 @@
+save_active_tab:
+  url:           /szTabsPlugin/save/:tab_module/:tab_action/:tab_value
+  params:
+    module:      szTabs
+    action:      guardar
+

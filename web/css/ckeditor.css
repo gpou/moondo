@@ -1,0 +1,35 @@
+
+	body,html { width:100%; margin:0px; padding:0px; }
+	body {
+		background-color:white; 
+		color: #000;
+		font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+		font-weight: normal; 
+		font-size: 0.75em; height:100%;
+	}
+	div { margin:0px; padding:0px; }
+	a { color: #333; text-decoration: none; }
+	a:hover { color: #000; text-decoration: none; }
+	img { border: 0px; }
+	p { margin: 0px 0px 0.5em 0px; padding: 0px; }
+	h1, h2, h3, h4, h5 { margin:0px; padding:0px; }
+	h2 { font-size:2.5em; font-weight:normal; line-height:1.2em; margin-bottom:5px; }
+	h3 { font-size:1.8em; font-weight:normal; line-height:1.2em; margin-bottom:5px; }
+	h2, h3 { color: #829156; }
+	h2 a, h3 a { color: #829156; }
+	h4 { font-size:1.5em; margin-top:30px; margin-bottom:15px; font-weight:normal; }
+	h5 { font-size:1.3em; margin-top:20px; font-weight:normal;   }
+	pre { font-style:italic; white-space: normal; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size:1.1em; margin-bottom:20px; }
+
+	.imatges, .videos { text-align:left; margin-top:30px; }
+	.imatges a, .videos a { margin-right:16px;  }
+	.imatges a img { width:150px; height:100px; margin-bottom:10px;  }
+	.videos a img { width:490px; margin-bottom:10px; }
+	.links p, p.link { margin-top:5px; font-style:italic; margin-bottom:5px; }
+	.links p a, p.link a { padding-left:20px; background-image:url(/images/link.png); background-position:left center; background-repeat:no-repeat; }
+	.docs p { margin-top:5px; font-style:italic; margin-bottom:5px; }
+	.docs p a { padding-left:20px; background-image:url(/images/doc.png); background-position:left center; background-repeat:no-repeat; }
+table td { margin:0; padding:0; }
+
+ul { margin:10px 0px; }
+ul li { margin: 10px 0px; }

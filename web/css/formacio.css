@@ -1,0 +1,13 @@
+body { 
+	background-color:#01d9a9; 
+}
+#esq img { bottom:0; }
+
+h2, h3, h4 { color: #01d9a9; }
+
+div.categoria { margin-bottom:30px; }
+div.categoria p.titol { font-size:1.2em; margin-top:25px; margin-bottom:15px; padding-bottom:2px;
+	text-transform:uppercase; border-bottom:1px solid #06236d; color:#06236d; }
+div.categoria p { margin-top:10px; margin-bottom:5px; }
+div.categoria p.descripcio { font-size:0.9em; display:block; margin-left:30px; margin-top:0px; }
+

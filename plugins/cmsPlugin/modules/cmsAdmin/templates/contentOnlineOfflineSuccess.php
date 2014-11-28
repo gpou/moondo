@@ -1,0 +1,2 @@
+
+<a class="ajax_edit_content_online" href="<?php echo url_for('cms_admin_content_'.($content->visible?'offline':'online'),$content,true) ?>"><img src="/sfDoctrinePlugin/images/tick<?php echo $content->visible?'':'_off' ?>.png" /></a>

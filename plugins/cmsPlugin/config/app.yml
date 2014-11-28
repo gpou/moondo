@@ -1,0 +1,5 @@
+all:
+  path_images_llistat: /images/fotos_llistat/
+  path_images_petites: /images/fotos_petites/
+  path_images: /images/fotos/
+  path_docs: /docs/

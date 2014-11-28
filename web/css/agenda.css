@@ -1,0 +1,12 @@
+body { 
+	background-color:#917641; 
+}
+h2, h3, h4 { color: #917641; }
+#esq img { z-index:10; }
+
+div.llistat { border-top:1px solid #cbb767; clear:both; }
+p.data { color:#555;  margin-bottom:0px; width:115px;  }
+div.entrada { margin-bottom:10px; float:right; text-align:left; width:270px; }
+div.entrada p { margin-top:0px; margin-bottom:2px; }
+div.entrada p.titol { font-size:1.2em; line-height:1em; }
+div.entrada p.subtitol {   }

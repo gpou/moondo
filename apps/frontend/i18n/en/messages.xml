@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-04-19T12:26:36Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Khan cartrö. Factoria artística</source>
+        <target>Khan cartrö. Artistic factory</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Espectacles i produccions</source>
+        <target>Spectacles and productions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Serveis</source>
+        <target>Services</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Formació</source>
+        <target>Formació</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Gent de Khan Cartrö</source>
+        <target>Gent de Khan Cartrö</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Agenda</source>
+        <target>Agenda</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Calendari</source>
+        <target>Calendar</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Històric</source>
+        <target>History</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Contacte</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>entrar</source>
+        <target>enter</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Serveis per a escoles</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>El 4º mono</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Factoria artística</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>E-mail</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Telf</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Veure el mapa més gran</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>T'hem inscrit a la nostra llista de correu</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Vols rebre informació de totes les nostres activitats?</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Nom</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Adreça de correu electrònic</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Com ens has conegut?</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>enviar</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Khan Cartrö</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Presentació</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

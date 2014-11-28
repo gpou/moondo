@@ -1,0 +1,387 @@
+
+cms_admin:
+  url: /sites
+  param: { module: cmsAdmin, action: index }
+
+cms_admin_page_online:
+  url: /sites/page/:id/online
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageOnline }
+
+cms_admin_page_offline:
+  url: /sites/page/:id/offline
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageOffline }
+  
+cms_admin_page_promote:
+  url: /sites/page/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pagePromote }
+  
+cms_admin_page_demote:
+  url: /sites/page/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageDemote }
+  
+cms_admin_page_new:
+  url: /sites/page/new
+  param: { module: cmsAdmin, action: pageNew }
+  
+cms_admin_page_create:
+  url: /sites/page/create
+  param: { module: cmsAdmin, action: pageCreate }
+  requirements: { sf_method: put }
+
+cms_admin_page_edit:
+  url: /sites/page/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageEdit }
+  
+cms_admin_page_update:
+  url: /sites/page/:id/update
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_page_delete:
+  url: /sites/page/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: pageDelete }
+
+
+
+cms_admin_content_online:
+  url: /sites/content/:id/online
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentOnline }
+
+cms_admin_content_offline:
+  url: /sites/content/:id/offline
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentOffline }
+
+cms_admin_content_promote:
+  url: /sites/content/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentPromote }
+  
+cms_admin_content_demote:
+  url: /sites/content/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentDemote }
+
+cms_admin_content:
+  url: /sites/content/:id
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: content }
+
+cms_admin_content_new:
+  url: /sites/content/:id/new
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: contentNew }
+  
+cms_admin_content_create:
+  url: /sites/content/:id/create
+  class:    sfDoctrineRoute
+  options: { model: Page, type: object }
+  param: { module: cmsAdmin, action: contentCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_content_created:
+  url: /sites/content/:id/created
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentCreated }
+  
+cms_admin_content_edit:
+  url: /sites/content/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentEdit }
+  
+cms_admin_content_update:
+  url: /sites/content/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_content_delete:
+  url: /sites/content/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentDelete }
+
+cms_admin_content_users:
+  url: /sites/content/:id/users
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentUsers }
+
+cms_admin_content_users_edit:
+  url: /sites/content/:id/users/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentUsersEdit }
+  
+cms_admin_content_users_update:
+  url: /sites/content/:id/users/update
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: contentUsersUpdate }
+  requirements: { sf_method: put }
+
+
+cms_admin_image_promote:
+  url: /sites/images/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContentImage, type: object }
+  param: { module: cmsAdmin, action: imagePromote }
+  
+cms_admin_image_demote:
+  url: /sites/images/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContentImage, type: object }
+  param: { module: cmsAdmin, action: imageDemote }
+
+cms_admin_image_new:
+  url: /sites/images/:id/new
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: imageNew }
+  
+cms_admin_image_create:
+  url: /sites/images/:id/create
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: imageCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_image_edit:
+  url: /sites/images/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContentImage, type: object }
+  param: { module: cmsAdmin, action: imageEdit }
+  
+cms_admin_image_update:
+  url: /sites/images/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContentImage, type: object }
+  param: { module: cmsAdmin, action: imageUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_image_delete:
+  url: /sites/images/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContentImage, type: object }
+  param: { module: cmsAdmin, action: imageDelete }
+
+
+
+cms_admin_video_promote:
+  url: /sites/videos/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContentVideo, type: object }
+  param: { module: cmsAdmin, action: videoPromote }
+  
+cms_admin_video_demote:
+  url: /sites/videos/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContentVideo, type: object }
+  param: { module: cmsAdmin, action: videoDemote }
+
+cms_admin_video_new:
+  url: /sites/videos/:id/new
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: videoNew }
+  
+cms_admin_video_create:
+  url: /sites/videos/:id/create
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: videoCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_video_edit:
+  url: /sites/videos/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContentVideo, type: object }
+  param: { module: cmsAdmin, action: videoEdit }
+  
+cms_admin_video_update:
+  url: /sites/videos/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContentVideo, type: object }
+  param: { module: cmsAdmin, action: videoUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_video_delete:
+  url: /sites/videos/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContentVideo, type: object }
+  param: { module: cmsAdmin, action: videoDelete }
+
+
+
+cms_admin_audio_promote:
+  url: /sites/audios/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContentAudio, type: object }
+  param: { module: cmsAdmin, action: videoPromote }
+  
+cms_admin_audio_demote:
+  url: /sites/audios/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContentAudio, type: object }
+  param: { module: cmsAdmin, action: audioDemote }
+
+cms_admin_audio_new:
+  url: /sites/audios/:id/new
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: audioNew }
+  
+cms_admin_audio_create:
+  url: /sites/audios/:id/create
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: audioCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_audio_edit:
+  url: /sites/audios/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContentAudio, type: object }
+  param: { module: cmsAdmin, action: audioEdit }
+  
+cms_admin_audio_update:
+  url: /sites/audios/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContentAudio, type: object }
+  param: { module: cmsAdmin, action: audioUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_audio_delete:
+  url: /sites/audios/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContentAudio, type: object }
+  param: { module: cmsAdmin, action: audioDelete }
+
+
+
+cms_admin_doc_promote:
+  url: /sites/docs/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContentDoc, type: object }
+  param: { module: cmsAdmin, action: docPromote }
+  
+cms_admin_doc_demote:
+  url: /sites/docs/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContentDoc, type: object }
+  param: { module: cmsAdmin, action: docDemote }
+
+cms_admin_doc_new:
+  url: /sites/docs/:id/new
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: docNew }
+  
+cms_admin_doc_create:
+  url: /sites/docs/:id/create
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: docCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_doc_edit:
+  url: /sites/docs/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContentDoc, type: object }
+  param: { module: cmsAdmin, action: docEdit }
+  
+cms_admin_doc_update:
+  url: /sites/docs/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContentDoc, type: object }
+  param: { module: cmsAdmin, action: docUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_doc_delete:
+  url: /sites/docs/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContentDoc, type: object }
+  param: { module: cmsAdmin, action: docDelete }
+
+
+
+
+
+cms_admin_link_promote:
+  url: /sites/links/:id/promote
+  class:    sfDoctrineRoute
+  options: { model: PageContentLink, type: object }
+  param: { module: cmsAdmin, action: linkPromote }
+  
+cms_admin_link_demote:
+  url: /sites/links/:id/demote
+  class:    sfDoctrineRoute
+  options: { model: PageContentLink, type: object }
+  param: { module: cmsAdmin, action: linkDemote }
+
+cms_admin_link_new:
+  url: /sites/links/:id/new
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: linkNew }
+  
+cms_admin_link_create:
+  url: /sites/links/:id/create
+  class:    sfDoctrineRoute
+  options: { model: PageContent, type: object }
+  param: { module: cmsAdmin, action: linkCreate }
+  requirements: { sf_method: put }
+  
+cms_admin_link_edit:
+  url: /sites/links/:id/edit
+  class:    sfDoctrineRoute
+  options: { model: PageContentLink, type: object }
+  param: { module: cmsAdmin, action: linkEdit }
+  
+cms_admin_link_update:
+  url: /sites/links/:id/update
+  class:    sfDoctrineRoute
+  options: { model: PageContentLink, type: object }
+  param: { module: cmsAdmin, action: linkUpdate }
+  requirements: { sf_method: put }
+
+cms_admin_link_delete:
+  url: /sites/links/:id/delete
+  class:    sfDoctrineRoute
+  options: { model: PageContentLink, type: object }
+  param: { module: cmsAdmin, action: linkDelete }
+
+
+
+page:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Page
+    module:               cmsAdmin
+    prefix_path:          /cmsAdmin
+    column:               id
+    with_wildcard_routes: true

@@ -1,0 +1,5 @@
+
+indexSuccess:
+  layout: home
+  stylesheets: [home.css]
+

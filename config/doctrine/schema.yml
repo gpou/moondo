@@ -1,0 +1,8 @@
+Llista:
+  tableName: llista
+  actAs: [Timestampable]
+  columns:
+    nom: { type: string(255), notnull: true }
+    mail: { type: string(255), notnull: true }
+    conegut: { type: text }
+

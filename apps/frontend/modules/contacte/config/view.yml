@@ -1,0 +1,6 @@
+
+all:
+  stylesheets: [generic_dins.css, contacte.css]
+  javascripts: []
+
+

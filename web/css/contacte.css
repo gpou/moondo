@@ -1,0 +1,9 @@
+body { 
+  background-color:#01f6fd; 
+}
+#esq img { bottom:0; }
+
+h2, h3, h4 { color: #01f6fd; }
+
+#mapa { width:310px; height:260px; float:right; }
+

@@ -1,0 +1,46 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+
+contacte:
+  url: /contacte.html
+  param: { module: contacte, action: index }
+  
+contacte_ok:
+  url: /contacte/enviar.html
+  param: { module: contacte, action: enviar }
+
+agenda:
+  url: /agenda.html
+  param: { module: agenda, action: index }
+agenda_historic:
+  url: /agenda/historic.html
+  param: { module: agenda, action: historic }
+
+language:
+  url: /:sf_culture
+  param: { module: home, action: language }
+
+espectacles:
+  url: /:slug.html
+  param: { module: espectacles, action: index }
+  
+espectacles_fitxa:
+  url: /:apartat_slug/:slug.html
+  param: { module: espectacles, action: fitxa }
+  
+
+
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

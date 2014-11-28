@@ -1,0 +1,259 @@
+
+TABLE {
+	border-collapse:  collapse;
+}
+
+TABLE.tabletab {
+	width:            100%;
+}
+.tabletab TH {
+	text-align:       left;
+	font-weight:      bold;
+	white-space:      nowrap;
+	padding:          5px 20px 5px 0px;
+}
+.tabletab TD {
+	width:            100%;
+	padding:          5px 0px;
+}
+.tabletab TR+TR {
+	border-top:       1px solid #ccc;
+}
+TABLE.adminlist {
+	border:           1px solid #bd7fff;
+}
+TABLE.adminlist TH {
+	background-color: #bd7fff; color: #333;
+	padding:          3px 10px;
+}
+TABLE.adminlist TD {
+	background-color: #EEF;
+	padding:          3px 5px;
+}
+TABLE.adminlist TR.even TD { background-color: #ECF; }
+TABLE.adminlist TR:hover TD { background-color: #FFF; }
+TABLE.tableactions {
+	clear: both;
+	float: left;
+}
+
+
+
+
+#tot .derecha {
+	float:            right;
+	width:            180px;
+	background: #eee url(../../images/fons/fons_180_gris_eee_part.png) no-repeat left top;
+	margin: 0px; padding: 0px;
+}
+#tot .derecha_frame { margin: 0px; padding: 20px; text-align: left; }
+#tot .derecha_frame p.help_title { font-weight:bold; }
+#tot .derecha_frame ul { margin:0; padding:0; margin-left:12px; }
+#tot .derecha_frame ul li { margin:0; padding:0; }
+#tot .derecha_frame em { font-weight:bold; color: #BD7FFF; }
+
+#tot .izquierda {
+	float:            left;
+	width:            800px;
+	background-color: white;
+}
+
+H1.titulo {
+	margin:           0px;
+	padding:          5px 0px 10px 0px;
+	font-size:        150%;
+}
+
+.double_list_select {
+	min-width:        100px;
+}
+
+.double_list_select-selected {
+	min-width:        100px;
+}
+
+ul.tabs {
+	margin: 0px; padding: 0px;
+	float:            left;
+	list-style:       none;
+	height:           32px; /*--Set height of tabs--*/
+	border-bottom:    1px solid #ccc;
+	border-left:      1px solid #ccc;
+	width:            100%;
+}
+
+ul.tabs li {
+	float:            left;
+	margin: 0px; padding: 0px;
+	height:           31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height:      31px; /*--Vertically aligns the text within the tab--*/
+	border:           1px solid #ccc;
+	border-left:      none;
+	margin-bottom:    -1px; /*--Pull the list item down 1px--*/
+	overflow:         hidden;
+	position:         relative;
+	background-color: #eee;
+}
+
+ul.tabs li a {
+	text-decoration: none;
+	color: #777;
+	display: block;
+	padding: 2px 10px;
+	outline: none;
+	height: 100%;
+}
+
+ul.tabs li a:hover { background-color: #bd7fff; color: #fff; }
+
+html ul.tabs li.active, html ul.tabs li.active a { 
+	background-color: #fff; color: #844dbf; font-weight: bold;
+	border-bottom: 1px solid #fff; 
+}
+html ul.tabs li.active a:hover  { color: #000; }
+
+.tab_container {
+	border:           1px solid #ccc;
+	border-top:       none;
+	overflow:         hidden;
+	clear:            both;
+	float:            left;
+	width:            100%;
+	background-color: #fff;
+}
+
+.tab_content {
+	padding:          10px;
+}
+
+.notice {
+	margin: 4px 0;
+	padding: 4px 4px 4px 30px;
+	background: url(/sf/sf_admin/images/tick.png) no-repeat 10px 4px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #ffc;
+}
+
+.error, .error_list {
+	margin: 4px 0;
+	padding: 4px 4px 4px 30px;
+	background: url(/sf/sf_admin/images/error.png) no-repeat 10px 4px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #f33;
+	color: #fff;
+}
+
+
+
+#sf_admin_container ul.sf_admin_actions a
+{
+  color: #333;
+  text-decoration: none;
+}
+
+#sf_admin_container ul.sf_admin_actions li
+{
+  list-style-type: none;
+  display: inline;
+  padding: 0px 3px 0px 20px;
+  margin:  0px 5px;
+}
+
+#sf_admin_container ul.sf_admin_actions input
+{
+  padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  border-right: 4px solid #999;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#sf_admin_container .sf_admin_action_create
+{
+  background: url(/sf/sf_admin/images/add.png) no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .sf_admin_action_save
+{
+  background: url(/sf/sf_admin/images/save.png) no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .sf_admin_action_save_and_add
+{
+  background: url(/sf/sf_admin/images/save.png) no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .sf_admin_action_save_and_list
+{
+  background: url(/sf/sf_admin/images/save.png) no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .sf_admin_action_delete
+{
+  background: url(/sf/sf_admin/images/delete.png) no-repeat 3px 2px;
+  border-right: 4px solid #E75C58 !important;
+}
+
+#sf_admin_container .sf_admin_action_cancel
+{
+  background: url(/sf/sf_admin/images/cancel.png) no-repeat 3px 2px;
+  border-right: 4px solid #E75C58 !important;
+}
+
+#sf_admin_container .sf_admin_action_filter
+{
+  background: url(/sf/sf_admin/images/filter.png) no-repeat 3px 2px;
+  border-right: 4px solid #66f !important;
+}
+
+#sf_admin_container .sf_admin_action_reset_filter
+{
+  background: url(/sf/sf_admin/images/reset.png) no-repeat 3px 2px;
+  border-right: 4px solid #E75C58 !important;
+}
+
+#sf_admin_container .sf_admin_action_list
+{
+  background: url(/sf/sf_admin/images/list.png) no-repeat 3px 2px;
+  border-right: 4px solid #66f !important;
+}
+
+#sf_admin_container .sf_admin_default_action
+{
+  background-color: #fc6 !important;
+  font-weight: bold !important;
+}
+
+
+#sf_admin_content input[type="text"],
+#sf_admin_content textarea {
+	width:600px; border:1px solid #ccc; color: #333;
+  font-size: 12px;}
+
+#sf_admin_content input[type="password"] { width:600px; border:1px solid #ccc; color: #333; }
+
+#sf_admin_container.admin_container_videos th { white-space:nowrap; }
+#sf_admin_container.admin_container_videos tr.sf_admin_row td { vertical-align:top; }
+
+
+
+	.submenu_dins { list-style:none; margin:0; padding:0; }
+	.submenu_dins li { list-style:none; margin:0; padding:0; padding-top:20px; clear:both; }
+	.submenu_dins h4 { margin:0; padding:0; margin-bottom:10px; }
+	.submenu_dins ul { margin:0; padding:0; }
+	.submenu_dins ul li { padding-top:0px; }
+	.submenu_dins ul { padding-bottom:20px;  }
+	.submenu_dins a { color:#663399; }
+	.submenu_dins a:hover { color:#000; }
+	img.foto_pagina { float:left; margin-right:20px; margin-bottom:10px; }
+	

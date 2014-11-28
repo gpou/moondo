@@ -1,0 +1,16 @@
+
+sfGuardUser:
+  User_admin:
+    last_name:      Administrador
+    email_address:  administrador@gmail.com
+    username:       moondo
+    password:       mondoloco
+    is_super_admin: true
+    Groups:         [Grup_admins]
+
+
+sfGuardGroup:
+  Grup_admins:
+    name:           administradors
+  Grup_llista:
+    name:           llista

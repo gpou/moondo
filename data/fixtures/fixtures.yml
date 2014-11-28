@@ -1,0 +1,360 @@
+
+Page:
+  Page_presentacio:
+    Translation:
+      ca:
+        titre: Presentació
+      es:
+        titre: Presentación
+  Page_colaboradors:
+    Translation:
+      ca:
+        titre: Gent de Khan-Cartrö
+      es:
+        titre: Gente de Khan-Cartrö
+  Page_colaboradors_dani:
+    Translation:
+      ca:
+        titre: Dani Ibañez
+        text: |
+          <p>Compositor, productor, especialista en informàtica musical i instrumentista de corda.</p>
+      es:
+        titre: Dani Ibañez
+        text: |
+          <p>Compositor, productor, especialista en informática musical e instrumentista de cuerda.</p>
+    Parent: Page_colaboradors
+    image: /docs/colaboradors/dani_ibanez.jpg
+  Page_colaboradors_jordi:
+    Translation:
+      ca:
+        titre: Jordi Parés
+        text: |
+          <p>Mestre, pedagog, compositor, músic especialista en sintetitzadors i instrumentista de vent.</p>
+      es:
+        titre: Jordi Parés
+        text: |
+          <p>Profesor, pedagogo, compositor, músico especialista en sintetizadores e instrumentos de viento.</p>
+    Parent: Page_colaboradors
+    image: /docs/colaboradors/jordi_pares.jpg
+  Page_espectacles:
+    Translation:
+      ca:
+        titre: Espectacles i Produccions
+      es:
+        titre: Espectáculos y producciones
+  Page_espectacles_modernes:
+    Translation:
+      ca:
+        titre: Músiques modernes
+      es:
+        titre: Músicas modernas
+    Parent: Page_espectacles
+  Page_espectacles_moondo:
+    Translation:
+      ca:
+        titre: Möondo
+      es:
+        titre: Möondo
+    Parent: Page_espectacles_modernes
+  Page_espectacles_dirty:
+    Translation:
+      ca:
+        titre: Dirty
+      es:
+        titre: Dirty
+    Parent: Page_espectacles_modernes
+  Page_espectacles_funky:
+    Translation:
+      ca:
+        titre: Funky (blackzoco quartet, radical)
+      es:
+        titre: Funky (blackzoco quartet, radical)
+    Parent: Page_espectacles_modernes
+  Page_espectacles_electroniques:
+    Translation:
+      ca:
+        titre: 'Electròniques: Somospheric'
+      es:
+        titre: 'Electrónicas: Somospheric'
+    Parent: Page_espectacles_modernes
+  Page_espectacles_tradicionals:
+    Translation:
+      ca:
+        titre: Músiques tradicionals i ètniques
+      es:
+        titre: Músicas tradicionales y étnicas
+    Parent: Page_espectacles
+  Page_espectacles_khamush:
+    Translation:
+      ca:
+        titre: A-khamush
+      es:
+        titre: A-khamush
+    Parent: Page_espectacles_tradicionals
+  Page_espectacles_mediterrasian:
+    Translation:
+      ca:
+        titre: Mediterrasian Ensemble
+      es:
+        titre: Mediterrasian Ensemble
+    Parent: Page_espectacles_tradicionals
+  Page_espectacles_khamush:
+    Translation:
+      ca:
+        titre: Iki chai
+      es:
+        titre: Iki chai
+    Parent: Page_espectacles_tradicionals
+  Page_espectacles_infants:
+    Translation:
+      ca:
+        titre: Música i espectacles per infants i no tant infants (familiar-escolar)
+      es:
+        titre: Música y espectáculos para niños y no tan niños (familiar-escolar)
+    Parent: Page_espectacles
+  Page_espectacles_multidisciplinar:
+    Translation:
+      ca:
+        titre: Multidisciplinar
+      es:
+        titre: Multidisciplinar
+    Parent: Page_espectacles
+  Page_espectacles_multidisciplinar_4mono:
+    Translation:
+      ca:
+        titre: 'El 4º mono: Möondo'
+      es:
+        titre: 'El 4º mono: Möondo'
+    Parent: Page_espectacles_multidisciplinar
+
+  Page_serveis:
+    Translation:
+      ca:
+        titre: Serveis
+      es:
+        titre: Servicios
+  Page_serveis_escoles:
+    Translation:
+      ca:
+        titre: Serveis per a escoles
+        text: |
+          <p>Oferim serveis a les escoles com a complement a les classes de música. Per mitjà de les audicions, l'alumne té un aprenentatge pràctic amb instruments i música en directe en un format audiovisual interactiu.</p>
+          <p class="link"><a href="">Vegeu l'apartat Espectacles per a infants</a></p>
+      es:
+        titre: Servicios para escuelas
+        text: |
+          <p>Ofrecemos servicios a las escuelas...</p>
+    Parent: Page_serveis
+  Page_serveis_escoles_audicions:
+    Translation:
+      ca:
+        titre: Audicions
+      es:
+        titre: Audiciones
+    Parent: Page_serveis_escoles
+  Page_serveis_escoles_tallers:
+    Translation:
+      ca:
+        titre: Tallers de música a l'aula
+      es:
+        titre: Talleres de música en el aula
+    Parent: Page_serveis_escoles
+  Page_serveis_escoles_enregistraments:
+    Translation:
+      ca:
+        titre: Enregistraments audiovisuals per escoles
+      es:
+        titre: Gravaciones audiovisuales para escuelas
+    Parent: Page_serveis_escoles
+  Page_serveis_escoles_tarifes:
+    Translation:
+      ca:
+        titre: Tarifes
+      es:
+        titre: Tarifas
+    Parent: Page_serveis_escoles
+  Page_serveis_escoles_enllacos:
+    Translation:
+      ca:
+        titre: Enllaços. Recursos web
+      es:
+        titre: Enlaces. Recursos web
+    Parent: Page_serveis_escoles
+    
+  Page_serveis_estudi:
+    Translation:
+      ca:
+        titre: Estudi de producció, gravació, composició
+        text: |
+          <p>Descripció apartat estudi de producció</p>
+      es:
+        titre: Estudio de produccióo, gravacióo, composicióo
+        text: |
+          <p>Descripción apartado estudio de producción</p>
+    Parent: Page_serveis
+  Page_serveis_estudi_musiques:
+    Translation:
+      ca:
+        titre: Músiques a la carta
+        text: <p>Tot realitzat amb els <a href="">col·laboradors de Khan-Cartrö</a></p>
+      es:
+        titre: Músicas a la carta
+        text: <p>Todo realitzado con los <a href="">colaboradores de Khan-Cartrö</a></p>
+    Parent: Page_serveis_estudi
+    
+  Page_serveis_estudi_fotografic:
+    Translation:
+      ca:
+        titre: Estudi fotogràfic
+      es:
+        titre: Estudio fotográfico
+    Parent: Page_serveis
+  Page_serveis_plato:
+    Translation:
+      ca:
+        titre: Plató
+      es:
+        titre: Plató
+    Parent: Page_serveis
+    
+  Page_formacio:
+    Translation:
+      ca:
+        titre: Formació
+      es:
+        titre: Formación
+    
+PageContent:
+  Content_presentacio:
+    Translation:
+      ca:
+        text: |
+          <p>Khan-Cartrö és un espai de recerca, d'intercanvi, de produccions musicals.</p>
+          <p>Agrupació de músics, especialitzats en  la basant pedagògica que a partir d'Audicions fem una divulgació musical interactiva.</p>
+          <p>És un projecte multidisciplinar d'experimentació. Engloba: creació, composició, producció musical, producció i realització d'espectacles (propis, per encàrrec, o per d'altres companyies), gravació, realització de concerts, audicions, tallers de música, dramatúrgia, fotografia, dansa, vídeo creació, ...</p>
+          <p>L'objectiu, crear una xarxa d'artistes amb un espai per a la creació i el desenvolupament musical i fomentar l'interconnexió artística.</p>
+          <p>Un laboratori creatiu on s'hi desenvolupin diferents projectes en diferents disciplines. Disposem de sales per assajar, amb un estudi de gravació professional.</p>
+    Page: Page_presentacio
+
+  Content_colaboradors:
+    Page: Page_colaboradors
+    Translation:
+      ca:
+        text: Aquesta és la gent que participa a Khan Cartrö
+  Content_colaboradors_dani:
+    Page: Page_colaboradors_dani
+    Translation:
+      ca:
+        text: |
+          <p>Compositor, productor, especialista en informàtica musical i instrumentista de corda: guitarres, llaut àrab i aragonès, sitar hindú, bouzouki grec, çumbus turc, mandolina, baglama, etc. Ha treballat amb músics com Albert Pla, El Bicho, Maria del Mar Bonet, La Fura dels Baus, Möondo, La Banda del Surdo, Tripijoc Teatre, etc. Porta més de 300 audicions a les espatlles i escoles de tot Catalunya, i ha participat en diferentes espectacles infantils: El bosc desafinat, El Planeta Sònic, etc.</p>
+  Content_colaboradors_jordi:
+    Page: Page_colaboradors_jordi
+    Translation:
+      ca:
+        text: |
+          <p>Mestre, pedagog, compositor, músic especialista en sintetitzadors i instrumentista de vent: bansuri hindú, ney i qavala àrabs, fujara eslovaca, bawu dizi i guanzi xinesos, didjeridú, kavals romanesos i turcs, etc.</p>
+          <p>Ha treballat amb músics com Albert Pla, Möondo, Zoumbia, Boughaleb Laarif, Abdeljalil Kodsi, Tripijoc Teatre, etc. Ha realitzat més de 400 audicions en centres de tot Catalunya, i fa més de 10 anys que treballa de docent en centres educatius de la provincia de Girona (La Bisbal, Cadaqués, Roses, Llagostera...).</p>
+
+  Content_espectacles_moondo:
+    Page: Page_espectacles_moondo
+    Translation:
+      ca:
+        text: |
+          <p>Descripció de Möondo</p>
+          <p>Segona línia i una <b>negreta</b></p>
+  Content_espectacles_moondo_images:
+    Page: Page_espectacles_moondo
+    type: images
+  Content_espectacles_moondo_videos:
+    Page: Page_espectacles_moondo
+    type: videos
+  Content_espectacles_moondo_audios:
+    Page: Page_espectacles_moondo
+    type: audios
+  Content_espectacles_moondo_docs:
+    Page: Page_espectacles_moondo
+    type: docs
+  Content_espectacles_moondo_links:
+    Page: Page_espectacles_moondo
+    type: links
+
+  Content_serveis_escoles_tarifes:
+    Page: Page_serveis_escoles_tarifes
+    type: form
+    Translation:
+      ca:
+        text: <p>Sol·liciteu les nostres tarifes mitjançant el següent formulari:</p>
+        
+  Content_formacio:
+    Page: Page_formacio
+    type: text
+    Translation:
+      ca:
+        text: |
+          <p>Oferim un espai de formació a gent que tingui inquietuds musicals. Tant a nivell d'especialització com d'iniciació.</p>
+          <p>Creem un espai de formació i d'intercanvi de coneixements musicals en diferents especialitats.</p>
+          <h4>Fem:</h4>
+          <p>Cursos, Seminaris, Monogràfics, Master Class.</p>
+
+PageContentImage:
+<?php for ($i=1;$i<21;$i++): ?>
+  Moondo<?php echo $i?>:
+    Translation:
+      ca:
+        titre: Una foto de moondo (<?php echo $i?>)
+    image_small: /docs/espectacles/moondo/<?php echo $i?>_p.jpg
+    image: /docs/espectacles/moondo/<?php echo $i?>.jpg
+    PageContent: Content_espectacles_moondo_images
+<?php endfor ?>
+
+PageContentVideo:
+  Moondo_video:
+    Translation:
+      ca:
+        titre: Un vídeo de moondo
+    image_small: /docs/espectacles/moondo/1_p.jpg
+    url: http://www.youtube.com/v/ra58d8PsIH0
+    PageContent: Content_espectacles_moondo_videos
+  
+PageContentAudio:
+  Moondo_audio1:
+    Translation:
+      ca:
+        titre: Un audio
+    PageContent: Content_espectacles_moondo_audios
+    url: /docs/moondo/audio1.mp3
+  Moondo_audio2:
+    Translation:
+      ca:
+        titre: Un audio
+    PageContent: Content_espectacles_moondo_audios
+    url: /docs/moondo/audio2.mp3
+  
+PageContentDoc:
+  Moondo_doc1:
+    Translation:
+      ca:
+        titre: Un document
+    PageContent: Content_espectacles_moondo_docs
+    url: /docs/moondo/doc1.pdf
+  Moondo_doc2:
+    Translation:
+      ca:
+        titre: Segon document
+    PageContent: Content_espectacles_moondo_docs
+    url: /docs/moondo/doc2.pdf
+
+PageContentLink:
+  Moondo_link1:
+    Translation:
+      ca:
+        titre: Un document
+    PageContent: Content_espectacles_moondo_links
+    url: http://www.tal.com
+  Moondo_link2:
+    Translation:
+      ca:
+        titre: Segon link
+    PageContent: Content_espectacles_moondo_links
+    url: http://www.pasqual.com
+    
